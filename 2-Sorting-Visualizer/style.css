@@ -1,0 +1,136 @@
+#heading,h2,h4{
+    font-family: "Jersey 10", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background: #C6FFDD;
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+}
+
+
+.inputOfArray{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.result{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.sortingStart button, .timeTakenByAlgo h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.timeTakenByAlgo{
+    display: flex;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+.father{
+    display: flex;
+    justify-content: center;
+}
+#histogramContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 450px;
+    width: 80%;
+    overflow-x: scroll;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #007bff;
+    margin: 0 1px;
+    position: relative;
+}
+
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+#arraySize,#arrayInput{
+    margin-top: 18px;
+    width: 100px;
+    height: 30px;
+}
+
+#submitBtn{
+    margin-top: 18px;
+    width: 100px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.algoChooser{
+    display: flex;
+    gap: 10px;
+}
+
+#sortingAlgorithm{
+    margin-top: 18px;
+    width: 150px;
+    height: 30px;
+}
+
+#startButton{
+    margin-top: 18px;
+    width: 150px;
+    height: 30px;
+}
+
+#submitBtn, 
+#startButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0; /* Adjusts any additional padding that might affect centering */
+    line-height: normal; /* Ensures no extra height affects the alignment */
+}

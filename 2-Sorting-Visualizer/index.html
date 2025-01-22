@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="heading" style="text-align: center">SORTING VISUALIZER - by Hemant</h1>
+    <div class="navbar">
+        <div class="inputOfArray">
+            <div class="input">
+                <form>
+                    <!-- <h2>Enter array size:</h2> -->
+                     <h2>Enter array : </h2>
+                    <input type="text" id="arrayInput" placeholder="e.g., 1, 2, 3, 4" min="10" max="400" required class="button-62">
+                    <!-- <input type="number" id="arraySize" name="arraySize" min="10" max="400" required class="button-62"><br> -->
+                    <button type="submit" class="button-62" id="submitBtn">Click me</button>
+                </form>        
+            </div>
+        </div>
+        <div class="result">
+            <div class="algoChooser">
+                <h2>Choose a sorting algorithm:</h2>
+                <select id="sortingAlgorithm" name="sortingAlgorithm" class="button-62">
+                    <option value="bubble">Bubble Sort</option>
+                    <option value="merge">Merge Sort</option>
+                    <option value="quick">Quick Sort</option>
+                    <option value="selection">Selection Sort</option>
+                    <option value="insertion">Insertion Sort</option>
+                </select>
+            </div>
+            <div class="sortingStart">
+                <button id="startButton" class="button-62">START SORTING</button>
+            </div>
+            <div class="timeTakenByAlgo">
+                <h2>Time taken By your Algo :</h2>
+                <div><h2 id="performanceTimer">00 sec</h2></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <h2>Histogram</h2> -->
+     <div class="father">
+        <div id="histogramContainer"></div>
+     </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
